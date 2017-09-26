@@ -5,5 +5,4 @@
  * Date: 2017/9/25
  * Time: 15:46
  */
-echo 111;
-echo "hooks test 20";
+echo "ZAQ's hooks test 21";
