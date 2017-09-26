@@ -6,4 +6,4 @@
  * Time: 15:46
  */
 echo 111;
-echo "hooks test 19";
+echo "hooks test 20";
