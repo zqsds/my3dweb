@@ -589,7 +589,7 @@ class phpspider
     {
         // 检查运行命令的参数
         global $argv;
-        $start_file = $argv[0]; 
+        $start_file = $argv[0];
 
         // 命令
         $command = isset($argv[1]) ? trim($argv[1]) : 'start';
@@ -609,6 +609,7 @@ class phpspider
             break;
         case 'stop':
             exec("ps aux | grep $start_file | grep -v grep | awk '{print $2}'", $info);
+            echo "赵强info---".$info;
             if (count($info) <= 1)
             {
                 echo "PHPSpider[$start_file] not run\n";
