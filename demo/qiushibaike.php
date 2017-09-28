@@ -51,7 +51,7 @@ $configs = array(
         'host'  => '127.0.0.1',
         'port'  => 3306,
         'user'  => 'root',
-        'pass'  => 'root',
+        'pass'  => '125911',
         'name'  => 'qiushibaike',
     ),
     //'queue_config' => array(
