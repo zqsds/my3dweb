@@ -14,7 +14,7 @@ use phpspider\core\phpspider;
 
 $configs = array(
     'name' => '糗事百科',
-    'log_show' => true,
+    'log_show' => false,
     'tasknum' => 1,
     //'save_running_state' => true,
     'domains' => array(
