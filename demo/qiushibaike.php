@@ -4,7 +4,6 @@
 // composer require owner888/phpspider
 // 引入加载器
 //require './vendor/autoload.php';
-
 // GitHub下载方式
 require_once __DIR__ . '/../autoloader.php';
 use phpspider\core\phpspider;
@@ -14,7 +13,7 @@ use phpspider\core\phpspider;
 
 $configs = array(
     'name' => '糗事百科',
-    'log_show' => false,
+    'log_show' => true,
     'tasknum' => 1,
     //'save_running_state' => true,
     'domains' => array(
@@ -51,7 +50,7 @@ $configs = array(
         'host'  => '127.0.0.1',
         'port'  => 3306,
         'user'  => 'root',
-        'pass'  => 'root',
+        'pass'  => '125911',
         'name'  => 'qiushibaike',
     ),
     //'queue_config' => array(
