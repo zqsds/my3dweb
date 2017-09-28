@@ -609,7 +609,6 @@ class phpspider
             break;
         case 'stop':
             exec("ps aux | grep $start_file | grep -v grep | awk '{print $2}'", $info);
-            echo "赵强info---".$info;
             if (count($info) <= 1)
             {
                 echo "PHPSpider[$start_file] not run\n";
@@ -775,6 +774,7 @@ class phpspider
     public function start()
     {
         $this->parse_command();
+        echo 222;die;
 
         // 爬虫开始时间
         self::$time_start = time();

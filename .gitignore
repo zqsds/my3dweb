@@ -2,4 +2,4 @@
 composer.lock
 data/log/
 .idea/*
-/data/*.log
+data/*.log
