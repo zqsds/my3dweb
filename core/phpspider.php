@@ -774,7 +774,6 @@ class phpspider
     public function start()
     {
         $this->parse_command();
-        echo 222;die;
 
         // 爬虫开始时间
         self::$time_start = time();
