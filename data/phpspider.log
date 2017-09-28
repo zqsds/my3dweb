@@ -16935,3 +16935,4 @@ Input "php qiushibaike.php stop" to quit. Start success.
 2017-09-28 15:01:41 [info] Find pages: 315 
 2017-09-28 15:01:41 [info] Waiting for collect pages: 284 
 2017-09-28 15:01:41 [info] Collected pages: 31 
+2017-09-28 17:30:29 [error] Export data to a database need Mysql support, Access denied for user 'root'@'localhost' (using password: YES)
